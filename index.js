@@ -3,8 +3,8 @@ var app = express();
 var port = process.env.PORT || 3000;
 
 app.get("/poi", (req, res) => {
-	res.json({longitude: 48.461387,
-		latitude: -123.334523});
+	res.json({latitude: 48.461387,
+		longitude: -123.334523});
 });
 
 app.listen(port, () => {
